@@ -10,6 +10,15 @@ namespace Ejercicio_Objetos_Peso
     {
         static void Main(string[] args)
         {
+            Peso p1 = new Peso(1000, "lb");
+            p1.GetLibras();
+            p1.GetLingotes();
+            p1.GetPeso("k");
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
